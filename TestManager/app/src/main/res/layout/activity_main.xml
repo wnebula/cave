@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.xxw.testmanager.MainActivity">
+
+    <Button
+        android:id="@+id/btn_activity_main_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始搜索信号"/>
+
+    <Button
+        android:id="@+id/btn_activity_main_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始测速"/>
+
+    <Button
+        android:id="@+id/btn_activity_main_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束测速"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经度"
+        android:textColor="#f00"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_activity_main_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纬度"
+        android:textColor="#f00"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_activity_main_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前速度"
+        android:textColor="#f00"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_activity_main_currentspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已跑动(m)"
+        android:textColor="#f00"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_activity_main_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ccc"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="平均速度"
+        android:textColor="#f00"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_activity_main_aspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用时"
+        android:textColor="#f00"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_activity_main_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+</LinearLayout>
